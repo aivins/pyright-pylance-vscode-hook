@@ -1,0 +1,19 @@
+[project]
+name = "pyright-pylance-vscode"
+version = "1.1.394"
+authors = [
+    {name = "Andrew Ivins",email = "andrew@ivins.id.au"}
+]
+requires-python = ">=3.7"
+dependencies = ["pyright (>=1.1.394,<2.0.0)"]
+
+[project.scripts]
+pyright-pylance-vscode = "pyright_pylance_vscode.hook:entrypoint"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.6"
+

@@ -1,0 +1,6 @@
+- id: pyright-pylance-vscode
+  name: Pyright Pylance VSCode
+  description: Pyright with the same defaults used by the Pylance VSCode extension.
+  entry: pyright-pylance-vscode
+  language: python
+  types: [python]
